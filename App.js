@@ -1,15 +1,72 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {Text, ScrollView, StyleSheet, View} from 'react-native';
 
 const App = () => {
-  return <Text>Hello</Text>;
+  return (
+    <ScrollView style={styles.container}>
+      <View
+        style={{
+          flex: 1,
+          flexDirection: 'row',
+          flexWrap: 'wrap',
+          backgroundColor: 'red',
+        }}>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+        <Text>Hello World</Text>
+      </View>
+    </ScrollView>
+  );
 };
 
-export default App;
+const styles = StyleSheet.create({
+  container: {
+    width: '50%',
+    backgroundColor: 'white',
+    flex: 1,
+    padding: 20,
+    flexWrap: 'wrap',
+  },
+  Text: {
+    color: 'white',
+  },
+});
 
-/*<NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Signup" component={SignupScreen} />
-        <Stack.Screen name="Login" component={LoginScreen} />
-      </Stack.Navigator>
-    </NavigationContainer>*/
+export default App;

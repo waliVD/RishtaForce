@@ -1,26 +1,67 @@
+// Import React
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {
+  TextInput,
+  StyleSheet,
+  Text,
+  View,
+  Image,
+  ScrollView,
+} from 'react-native';
 
-const LoginScreen = () => {
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text style={{color: 'white'}}>Login Screen!</Text>
-    </View>
+    <ScrollView style={styles.container}>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+    </ScrollView>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#20242F',
     flex: 1,
-    padding: 20,
-    flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
   },
-  Text: {
-    color: 'white',
-  },
 });
 
-export default LoginScreen;
+export default App;
